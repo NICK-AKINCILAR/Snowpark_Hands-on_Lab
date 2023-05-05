@@ -33,7 +33,7 @@ We recommend scheduling a call to review all Snowflake account setup and Python 
 - Log into your Snowflake account and switch to ACCOUNTADMIN role
 - Click on Admin and then Billing & Terms on the left side panel
 - On the Terms and Billing tab, read and accept terms to continue with the workshop
-- Create a new worksheet and run the [Snowpark_Hands-on_Lab_SF_setup code](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/200_HOL/200_HOL_Setup/200_HOL_Snowpark_Hands-on_Lab_SF_Setup). This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions. Step through and run each line to ensure all code runs without error.
+- Create a new worksheet and run the [Snowpark_Hands-on_Lab_SF_setup code](https://github.com/NICK-AKINCILAR/Snowpark_Hands-on_Lab/blob/main/200_HOL/200_HOL_Setup/200_HOL_Snowpark_Hands-on_Lab_SF_Setup.sql). This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions. Step through and run each line to ensure all code runs without error.
 - Ensure each Snowpark Hands-on Lab participant has been granted access to the snowpark_workshop_role role in line 12
   - GRANT ROLE snowpark_workshop_role to USER <user_name>;
 
