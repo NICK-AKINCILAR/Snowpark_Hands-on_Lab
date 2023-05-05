@@ -1,4 +1,6 @@
 -- Create Database Roles, Database, Schema, Warehouse
+use role ACCOUNTADMIN;
+
 CREATE OR REPLACE DATABASE snowpark_workshop;
 
 CREATE OR REPLACE SCHEMA snowpark_workshop.campaign_demo;
@@ -9,7 +11,7 @@ WAREHOUSE_SIZE = 'XLarge' WAREHOUSE_TYPE = 'STANDARD' AUTO_SUSPEND = 10 INITIALL
 CREATE OR REPLACE ROLE snowpark_workshop_role;
 
 GRANT ROLE snowpark_workshop_role TO ROLE sysadmin;
-GRANT ROLE snowpark_workshop_role TO USER <user_name>;
+GRANT ROLE snowpark_workshop_role TO USER workshop1;
 
 -- Create Tables, Load Data, and Setup Stages
 
