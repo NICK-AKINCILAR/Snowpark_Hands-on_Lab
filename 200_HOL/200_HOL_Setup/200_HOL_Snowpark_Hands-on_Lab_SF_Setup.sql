@@ -11,7 +11,7 @@ WAREHOUSE_SIZE = 'XLarge' WAREHOUSE_TYPE = 'STANDARD' AUTO_SUSPEND = 10 INITIALL
 CREATE OR REPLACE ROLE snowpark_workshop_role;
 
 GRANT ROLE snowpark_workshop_role TO ROLE sysadmin;
-GRANT ROLE snowpark_workshop_role TO USER workshop1;
+GRANT ROLE snowpark_workshop_role TO USER <username>;
 
 -- Create Tables, Load Data, and Setup Stages
 
