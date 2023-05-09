@@ -51,6 +51,7 @@ conda activate snowpark
 
 
 - Install Snowpark for Python, Streamlit, scikit-learn, xgboost and other libraries in Conda environment
+
 ```
 conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas notebook scikit-learn cachetools
 ```
