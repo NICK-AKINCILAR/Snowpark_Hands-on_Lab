@@ -6,5 +6,5 @@
   "warehouse" : "",
   "database"  : "",
   "schema"    : "",
-  "notes"     : "To use SSO, replace 'password':'yourpassword' with 'authenticator':'externalbrowser' ",
+  "notes"     : "To use SSO, replace 'password':'yourpassword' with 'authenticator':'externalbrowser' "
 }
